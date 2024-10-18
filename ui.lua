@@ -140,7 +140,7 @@ function library:new(Name)
     Title.ZIndex = 10
     Title.FontFace =
         Font.new([[rbxasset://fonts/families/Ubuntu.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-    Title.Text = string.format("  %s", Name, "[Cracked by 0x37 & One Shot]")
+    Title.Text = string.format("  %s [Cracked by 0x37 & One Shot]", Name)
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 15.000
     Title.TextXAlignment = Enum.TextXAlignment.Left
